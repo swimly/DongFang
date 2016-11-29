@@ -11,7 +11,6 @@ import{
 } from 'react-native';
 let PI=1/PixelRatio.get();
 import NavBar from '../components/NavBar';
-import Router from 'react-native-simple-router';
 export default class MailListView extends React.Component{
   constructor(props){
      super(props);

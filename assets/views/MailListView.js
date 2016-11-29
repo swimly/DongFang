@@ -12,7 +12,6 @@ import{
 let PI=1/PixelRatio.get();
 import NavBar from '../components/NavBar';
 import MailInfoView from './MailInfoView';
-import Router from 'react-native-simple-router';
 export default class MailListView extends React.Component{
   constructor(props){
      super(props);
@@ -36,7 +35,6 @@ export default class MailListView extends React.Component{
               <Text style={{margin: 30}}>Button</Text>
             </View>
           </TouchableNativeFeedback>
-          <Route component={MailInfoView} name="MailInfoView" sceneConfig="FloatFromBottom"/>
         </ScrollView>
       </View>
     )
